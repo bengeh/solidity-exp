@@ -14,6 +14,18 @@
 9. Events are emitted using `emit`, followed by the name of the event and the arguments (if any) in parentheses. Any such invocation (even deeply nested) can be detected from the JavaScript API by filtering for `ProductCreated` or `ProductPurchased`.
 10. [Functions](https://docs.soliditylang.org/en/v0.4.24/contracts.html#functions)
 
+### Folder migrations
+1. Migration files are numbered
+2. truffle migrate
+    - This allows you to use "truffle console" to test if your app has been migrated
+    - truffle console will activate enter the truffle console in your command prompt
+    - now you are able to type things to access the truffle script (similar to your python GUI)
+
+### Folder build/contracts 
+1. This will appear once you have done truffle compile.
+2. Now you are ready to put this in your client, and access the functionalites inside this JSON.
+
+
 ### Steps to run the app
 1. git clone
 2. truffle compile
